@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE configuration>
+
+<configuration>
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>[%d{"yyyy-MM-dd HH:mm:ss,SSS", UTC}] [%-5level] [%thread] [txnId=%X{TRANSACTION_ID}] [visitId=%X{VISIT_ID}] [clientIP=%X{CLIENT_IP}] [xffIP=%X{XFF_IP}] %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+    <logger name="org.opensaml" level="OFF"/>
+    <logger name="com.charter.tve.authn.http.ResilientPostClient" level="DEBUG"/>
+    <logger name="com.charter.tve.authn.authentication.SsoAuthenticator" level = "DEBUG"/>
+    <logger name="com.charter.tve.authn.authentication.AutoAuthAuthenticator" level = "DEBUG"/>
+    <logger name="com.charter.tve.authn.authentication.ManualAuthAuthenticator" level = "DEBUG"/>
+
+    <root>
+        <level value="INFO"/>
+        <appender-ref ref="STDOUT" />
+    </root>
+</configuration>
