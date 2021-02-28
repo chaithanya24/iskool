@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ConfigRegisterSpec" time="0.487" tests="2" errors="0" skipped="0" failures="0">
+<testsuite name="ConfigRegisterSpec" time="0.443" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2020.3.2"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -40,7 +40,7 @@
     <property name="java.class.path" value="/private/var/folders/lf/b7cfqbdx7jb40zb15f5f425cdscxjt/T/AppTranslocation/2C4544F1-989D-4477-A5F8-DDDFDF1765B6/d/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds-2.6.0.jar:/private/var/folders/lf/b7cfqbdx7jb40zb15f5f425cdscxjt/T/AppTranslocation/2C4544F1-989D-4477-A5F8-DDDFDF1765B6/d/IntelliJ IDEA.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds.license"/>
     <property name="java.vm.specification.version" value="14"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2020.3.2 install"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2020.3.2 clean install"/>
     <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-14.0.1.jdk/Contents/Home"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -54,6 +54,6 @@
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="sun.cpu.endian" value="little"/>
   </properties>
-  <testcase name="test config loader" classname="ConfigRegisterSpec" time="0.485"/>
-  <testcase name="test config loader without app configuration" classname="ConfigRegisterSpec" time="0.002"/>
+  <testcase name="test config loader" classname="ConfigRegisterSpec" time="0.44"/>
+  <testcase name="test config loader without app configuration" classname="ConfigRegisterSpec" time="0.003"/>
 </testsuite>

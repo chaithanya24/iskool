@@ -10,8 +10,9 @@
         <version>1.0.0</version>
     </parent>
 
-    <groupId>com.bp.iskool</groupId>
+    <groupId>com.bp.iskool.app</groupId>
     <artifactId>app</artifactId>
+    <packaging>jar</packaging>
     <version>1.0.0</version>
 
 

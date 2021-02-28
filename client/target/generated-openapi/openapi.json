@@ -1,0 +1,81 @@
+{
+  "openapi" : "3.0.1",
+  "info" : {
+    "title" : "iskool",
+    "description" : "Endpoints for iskool users",
+    "contact" : {
+      "email" : "chaithanya.karnam@gmail.com"
+    },
+    "version" : "1.0.0"
+  },
+  "servers" : [ {
+    "url" : "http://localhost:8080/iskool",
+    "description" : "local server"
+  } ],
+  "paths" : {
+    "/isAlive" : {
+      "get" : {
+        "tags" : [ "Health Check APIs" ],
+        "summary" : "Get Application Alive State",
+        "description" : "Lists details of Application version, configuration, version",
+        "operationId" : "isAlive",
+        "responses" : {
+          "200" : {
+            "description" : "Application Alive state",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/HealthCheckResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/isReady" : {
+      "get" : {
+        "tags" : [ "Health Check APIs" ],
+        "summary" : "Get Application Ready State",
+        "description" : "Lists details of Application version, configuration, version",
+        "operationId" : "isReady",
+        "responses" : {
+          "200" : {
+            "description" : "Application ready state",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/HealthCheckResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components" : {
+    "schemas" : {
+      "HealthCheckResponse" : {
+        "type" : "object",
+        "properties" : {
+          "message" : {
+            "type" : "string"
+          },
+          "charter_api_host" : {
+            "type" : "string"
+          },
+          "project_version" : {
+            "type" : "string"
+          },
+          "hash" : {
+            "type" : "string"
+          },
+          "config_version" : {
+            "type" : "string"
+          }
+        }
+      }
+    }
+  }
+}

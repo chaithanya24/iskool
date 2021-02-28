@@ -1,0 +1,13 @@
+com/bp/iskool/client/immutable/dto/HealthCheckResponse.class
+com/bp/iskool/client/provider/TxnLogger.class
+com/bp/iskool/client/servlet/SwaggerServlet.class
+com/bp/iskool/client/immutable/dto/ImmutableHealthCheckResponse.class
+com/bp/iskool/client/provider/CORSFilter.class
+com/bp/iskool/client/provider/MDCFilter.class
+com/bp/iskool/client/bind/MainConfiguration.class
+com/bp/iskool/client/provider/MDCFilter$HeadersWrapper.class
+com/bp/iskool/client/bind/RestModule.class
+com/bp/iskool/client/rest/AdminRS.class
+com/bp/iskool/client/immutable/dto/ImmutableHealthCheckResponse$Builder.class
+com/bp/iskool/client/provider/MDCFilter$HeadersWrapper$1.class
+com/bp/iskool/client/bind/MainConfiguration$RegisterConfig.class

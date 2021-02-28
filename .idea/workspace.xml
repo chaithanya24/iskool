@@ -1,33 +1,119 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="client:war" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34909c99-8af5-4d42-ac47-fc37a7036a4c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/config/src/main/java/com/bp/iskool/config/ConfigDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/src/main/java/com/bp/iskool/config/ConfigListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/src/main/java/com/bp/iskool/config/ConfigRegister.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/src/main/java/com/bp/iskool/config/Configurations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/src/main/java/com/bp/iskool/config/LoadAppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/src/main/java/com/bp/iskool/utils/Helper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/src/test/groovy/com/bp/iskool/config/ConfigRegisterSpec.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/src/test/resources/test.tve-util-default.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/src/test/resources/test.tve-util.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/src/test/resources/version.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/src/main/java/com/bp/iskool/dao/SpecuDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/src/main/java/com/bp/iskool/dao/SpecuDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/src/main/java/com/bp/iskool/immutables/AuroraDbConf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/src/main/java/com/bp/iskool/immutables/BaseSchool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/src/main/java/com/bp/iskool/immutables/PreauthRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/src/main/java/com/bp/iskool/immutables/School.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/src/main/java/com/bp/iskool/immutables/SpecuSessionInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/src/main/java/com/bp/iskool/mysql/AuroraDS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/src/main/java/com/bp/iskool/mysql/Prepare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/src/main/java/com/bp/iskool/mysql/Query.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/src/main/java/com/bp/iskool/mysql/RSConvert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/src/main/java/com/bp/iskool/util/HasCloseable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/src/main/java/com/bp/iskool/logger/HasLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/client_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/client_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_9_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_jaxrs_jackson_jaxrs_base_2_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_jaxrs_jackson_jaxrs_json_provider_2_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_8_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_spullara_mustache_java_compiler_0_8_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_16_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_extensions_guice_servlet_4_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_core_v3_swagger_annotations_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_core_v3_swagger_core_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_core_v3_swagger_integration_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_core_v3_swagger_jaxrs2_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_core_v3_swagger_jaxrs2_servlet_initializer_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_core_v3_swagger_models_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_annotation_jakarta_annotation_api_1_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_ws_rs_jakarta_ws_rs_api_2_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_javax_ws_rs_api_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_external_aopalliance_repackaged_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_external_jakarta_inject_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_external_javax_inject_2_5_0_b42.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_api_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_locator_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_utils_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_osgi_resource_locator_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_containers_jersey_container_servlet_2_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_containers_jersey_container_servlet_core_2_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_client_2_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_common_2_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_server_2_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_ext_jersey_entity_filtering_2_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_ext_jersey_mvc_2_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_ext_jersey_mvc_mustache_2_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_inject_jersey_hk2_2_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_media_jersey_media_jaxb_2_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_media_jersey_media_json_jackson_2_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_21_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reflections_reflections_0_9_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/bp/iskool/client/bind/MainConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/bp/iskool/client/bind/RestModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/bp/iskool/client/immutable/dto/HealthCheckResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/bp/iskool/client/provider/CORSFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/bp/iskool/client/provider/MDCFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/bp/iskool/client/provider/TxnLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/bp/iskool/client/rest/AdminRS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/bp/iskool/client/servlet/SwaggerServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/webapp/META-INF/context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/openapi-configuration.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/main/webapp/index.mustache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/src/main/java/com/bp/iskool/config/IskoolConfigDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/src/main/java/com/bp/iskool/Immutables/dto/http/ClientResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/src/main/java/com/bp/iskool/Immutables/dto/http/HttpConf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/src/main/java/com/bp/iskool/close/HasCloseable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/src/main/java/com/bp/iskool/helper/Helper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/src/main/java/com/bp/iskool/helper/TestHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/src/main/java/com/bp/iskool/http/ApacheClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/src/main/java/com/bp/iskool/http/GetClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/src/main/java/com/bp/iskool/http/GetClientImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/src/main/java/com/bp/iskool/http/PostClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/src/main/java/com/bp/iskool/http/PostClientImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/client/client.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/client/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/client/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.iml" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/src/main/resources/tve-authentication-client-default.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/src/main/resources/iskool-default.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/src/main/resources/tve-authentication-client.conf" beforeDir="false" afterPath="$PROJECT_DIR$/config/src/main/resources/iskool.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/target/classes/git.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config/target/classes/git.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/target/classes/tve-authentication-client-default.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/target/classes/tve-authentication-client.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/config/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/config/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/target/surefire-reports/ConfigRegisterSpec.txt" beforeDir="false" afterPath="$PROJECT_DIR$/config/target/surefire-reports/ConfigRegisterSpec.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/target/surefire-reports/TEST-ConfigRegisterSpec.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config/target/surefire-reports/TEST-ConfigRegisterSpec.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/database.iml" beforeDir="false" afterPath="$PROJECT_DIR$/database/database.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/database/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/database/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/util/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/util/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/util/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/util/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/util.iml" beforeDir="false" afterPath="$PROJECT_DIR$/util/util.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +129,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
@@ -54,23 +147,28 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/config/src/test/groovy/com/bp/iskool/config" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/util/src/main/java/com/bp/iskool/helper" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.38398117" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/config/src/test/groovy/com/bp/iskool/config" />
-      <recent name="$PROJECT_DIR$/config/src/test" />
-      <recent name="$PROJECT_DIR$/config/src/main/java/com/bp/iskool" />
-      <recent name="$PROJECT_DIR$/database/src/main/java/com/bp/iskool" />
-      <recent name="$PROJECT_DIR$/database/src/main/java/com/bp/iskool/mysql" />
+      <recent name="$PROJECT_DIR$/util/src/main/java/com/bp/iskool/helper" />
+      <recent name="$PROJECT_DIR$/util/src/main/java/com/bp/iskool/Immutables/dto" />
+      <recent name="$PROJECT_DIR$/util/src/main/java/com/bp/iskool/http" />
+      <recent name="$PROJECT_DIR$/app/src/main/java" />
+      <recent name="$PROJECT_DIR$/client/src/main" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.bp.iskool.client.immutable.dto" />
+      <recent name="com.bp.iskool.close" />
+      <recent name="com.bp.iskool.config" />
       <recent name="com.bp.iskool.logger" />
       <recent name="com.bp.iskool.util" />
     </key>
@@ -89,6 +187,106 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tomcat 8.5.55" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.55" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/iskool/isReady" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="client:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/iskool" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="486353cc-b03f-44f5-a744-7b3662c6d7ae" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="59590" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="client:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -99,7 +297,7 @@
       <option name="presentableId" value="Default" />
       <updated>1614469588204</updated>
       <workItem from="1614469589416" duration="2891000" />
-      <workItem from="1614472817106" duration="4929000" />
+      <workItem from="1614472817106" duration="16280000" />
     </task>
     <servers />
   </component>

@@ -1,5 +1,6 @@
 com/bp/iskool/config/ConfigDetails.class
 com/bp/iskool/config/ConfigListener.class
+com/bp/iskool/config/IskoolConfigDetails.class
 com/bp/iskool/config/LoadAppConfig.class
 com/bp/iskool/config/ConfigRegister.class
 com/bp/iskool/utils/Helper$PrettyJson.class

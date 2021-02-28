@@ -1,0 +1,8 @@
+/Users/p2799013/Documents/my-projects/iskool/client/src/main/java/com/bp/iskool/client/bind/MainConfiguration.java
+/Users/p2799013/Documents/my-projects/iskool/client/src/main/java/com/bp/iskool/client/rest/AdminRS.java
+/Users/p2799013/Documents/my-projects/iskool/client/src/main/java/com/bp/iskool/client/bind/RestModule.java
+/Users/p2799013/Documents/my-projects/iskool/client/src/main/java/com/bp/iskool/client/provider/TxnLogger.java
+/Users/p2799013/Documents/my-projects/iskool/client/src/main/java/com/bp/iskool/client/provider/CORSFilter.java
+/Users/p2799013/Documents/my-projects/iskool/client/src/main/java/com/bp/iskool/client/provider/MDCFilter.java
+/Users/p2799013/Documents/my-projects/iskool/client/src/main/java/com/bp/iskool/client/immutable/dto/HealthCheckResponse.java
+/Users/p2799013/Documents/my-projects/iskool/client/src/main/java/com/bp/iskool/client/servlet/SwaggerServlet.java

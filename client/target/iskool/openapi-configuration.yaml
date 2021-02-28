@@ -1,0 +1,16 @@
+resourcePackages:
+  - com.bp.iskool.client.rest
+prettyPrint: true
+cacheTTL: 0
+title: 'iskool'
+openAPI:
+  info:
+    version: '1.0.0'
+    title: 'iskool'
+    description: 'Endpoints for iskool users'
+    contact:
+      email: chaithanya.karnam@gmail.com
+  servers:
+    - url: 'http://localhost:8080/iskool'
+      description: 'local server'
+
